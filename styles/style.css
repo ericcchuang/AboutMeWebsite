@@ -2,7 +2,7 @@ main, footer{
     margin: 1% 1.5%;
 }
 
-/* nav */
+/* nav bar */
 header{
 	background-color: #aaaaaa;
 }
@@ -61,3 +61,4 @@ body {
 	float:left;
 	margin: 0 1% 1% 0;
 }
+
