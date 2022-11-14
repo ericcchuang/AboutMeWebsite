@@ -1,0 +1,63 @@
+main, footer{
+    margin: 1% 1.5%;
+}
+
+/* nav */
+header{
+	background-color: #aaaaaa;
+}
+nav {
+	position: relative;
+    color: #ffffff;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+    min-width: 200px;
+	background-color: #aaaaaa;
+	text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #ff8080;
+}
+
+.current{
+	background-color:#ff9595;
+}
+
+.content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.dropdown:hover .content {
+	display: block;
+}
+
+#eric{
+	color:#ffffff;
+	font-weight:bold;
+	background-color: #a60000;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+#self{
+	float:left;
+	margin: 0 1% 1% 0;
+}
