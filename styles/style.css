@@ -24,7 +24,7 @@ nav li {
 nav li a {
 	display: block;
 	text-align: center;
-    min-width: 125px;
+    min-width: 135px;
 	background-color: #aaaaaa;
 	text-decoration: none;
 }
