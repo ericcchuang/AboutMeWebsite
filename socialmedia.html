@@ -12,12 +12,44 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <script>
+                  function openNav(){
+                    var menu = document.getElementById("mobile-nav");
+                    if (menu.style.display == "block") {
+                      document.getElementById("mobile-nav").style.display = "none";
+                    } else {
+                      document.getElementById("mobile-nav").style.display = "block";
+                    }
+                  }
+                </script>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" onclick="openNav()">
                   <span class="navbar-toggler-icon"></span>
                 </button>
+              <div class="mobile-nav" id="mobile-nav">
+                <ul class="navbar-toggler">
+                  <li><a class="navbar-brand mx-0 px-2 eric">Eric Huang</a></li>
+                  <li><a class="navbar-brand mx-0 px-2" href="index.html">Home</a></li>
+                  <li><a class="navbar-brand mx-0 px-2" href="aboutme.html">About Me</a></li>
+                  <li class="dropdown"><a class="navbar-brand mx-0 px-2" href="#">Qualifications</a>
+                      <ul class="navbar-brand content">
+                          <li><a class="navbar-brand px-2" href="skills.html">Skills &<br> Certifications</a></li>
+                          <li><a class="navbar-brand px-2" href="experience.html">Experience</a></li>
+                          <li><a class="navbar-brand px-2" href="resume.html">Resume</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown"><a class="navbar-brand mx-0 px-2 current" href="#">Contact Info</a>
+                      <ul class="navbar-brand content">
+                          <li><a class="navbar-brand px-2" href="email.html">Email Form</a></li>
+                          <li><a class="navbar-brand px-2 current" href="socialmedia.html">Social Media</a></li>
+                      </ul>
+                  </li>
+              </ul>
+            </div>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul>
-                <li><a class="navbar-brand mx-0 px-2" id="eric">Eric Huang</a></li>
+                <li><a class="navbar-brand mx-0 px-2 eric">Eric Huang</a></li>
                 <li><a class="navbar-brand mx-0 px-2" href="index.html">Home</a></li>
                 <li><a class="navbar-brand mx-0 px-2" href="aboutme.html">About Me</a></li>
                 <li class="dropdown"><a class="navbar-brand mx-0 px-2" href="#">Qualifications</a>

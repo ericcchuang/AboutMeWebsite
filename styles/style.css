@@ -2,6 +2,14 @@ main, footer{
     margin: 1% 1.5%;
 }
 
+
+/* responsive nav */
+.mobile-nav{
+	display: none;
+}
+
+
+
 /* nav bar */
 header{
 	background-color: #aaaaaa;
@@ -47,11 +55,12 @@ nav li a:hover{
 	display: block;
 }
 
-#eric{
+.eric{
 	color:#ffffff;
 	font-weight:bold;
 	background-color: #a60000;
 }
+
 
 body {
     background-color: #eeeeee;
