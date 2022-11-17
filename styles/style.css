@@ -48,9 +48,13 @@ nav li {
 nav li a {
 	display: block;
 	text-align: center;
-    min-width: 7.5em;
+    min-width: 8em;
 	background-color: #aaaaaa;
 	text-decoration: none;
+}
+
+nav li a img{
+	margin: 0;
 }
 
 nav li a:hover{
