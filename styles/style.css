@@ -4,11 +4,21 @@ main, footer{
 
 
 /* responsive nav */
-.mobile-nav{
-	display: none;
+#navButton{
+	z-index:2;
+	position:relative;
 }
 
+.mobile-nav{
+	display: none;
+	position:fixed;
+	z-index:1;
+	padding-top:12em;
+}
 
+.mobile-nav .content{
+	padding-left:7em;
+}
 
 /* nav bar */
 header{
