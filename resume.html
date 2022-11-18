@@ -9,27 +9,57 @@
 </head>
 
 <body>
-    
     <header>
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <script src="scripts/responsiveNav.js"></script>
+              <div><!-- mobile nav -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" id="navButton" onclick="openNav()">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="mobile-nav" id="mobile-nav">
+                <ul class="navbar-toggler">
+                  <li><a class="navbar-brand mx-0 px-2 py-2 eric" href="index.html"><img src="images/self.jpeg" height="30" width="30">  Eric Huang</a></li><br>
+                  <li><a class="navbar-brand mx-0 px-2 py-2" href="index.html">Home</a></li><br>
+                  <li><a class="navbar-brand mx-0 px-2 py-2" href="aboutme.html">About Me</a></li><br>
+                  <li class="dropdown"><a class="navbar-brand mx-0 px-2 py-2 current" href="#">Qualifications</a>
+                      <ul class="navbar-brand content my-0 py-0">
+                          <li><a class="navbar-brand px-2 py-2" href="skills.html">Skills &<br> Certifications</a></li>
+                          <li><a class="navbar-brand px-2 py-2" href="experience.html">Experience</a></li>
+                          <li><a class="navbar-brand px-2 py-2 current" href="resume.html">Resume</a></li>
+                      </ul>
+                  </li><br>
+                  <li class="dropdown"><a class="navbar-brand mx-0 px-2 py-2" href="#">Contact Info</a>
+                      <ul class="navbar-brand content my-0 py-0">
+                          <li><a class="navbar-brand px-2 py-2" href="email.html">Email Form</a></li>
+                          <li><a class="navbar-brand px-2 py-2" href="socialmedia.html">Social Media</a></li>
+                      </ul>
+                  </li>
+                </ul>
+            </div>
+            <!-- desktop nav -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul>
-                <li><a class="navbar-brand mx-0" id="eric">Eric Huang</a></li>
-                <li><a class="navbar-brand mx-0" href="index.html">Home</a></li>
-                <li><a class="navbar-brand mx-0" href="aboutme.html">About Me</a></li>
-                <li class="dropdown"><a class="navbar-brand mx-0 current" href="#">Qualifications</a>
+                <li><a class="navbar-brand mx-0 px-2 eric" href="index.html"><img src="images/self.jpeg" height="30" width="30">  Eric Huang</a></li>
+                <li><a class="navbar-brand mx-0 px-2" href="index.html">Home</a></li>
+                <li><a class="navbar-brand mx-0 px-2" href="aboutme.html">About Me</a></li>
+                <li class="dropdown"><a class="navbar-brand mx-0 px-2 current" href="#">Qualifications</a>
                     <ul class="navbar-brand content">
-                        <li><a class="navbar-brand" href="skills.html">Skills &<br> Certifications</a></li>
-                        <li><a class="navbar-brand" href="experience.html">Experience</a></li>
-                        <li><a class="navbar-brand current" href="resume.html">Resume</a></li>
+                        <li><a class="navbar-brand px-2" href="skills.html">Skills &<br> Certifications</a></li>
+                        <li><a class="navbar-brand px-2" href="experience.html">Experience</a></li>
+                        <li><a class="navbar-brand px-2 current" href="resume.html">Resume</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a class="navbar-brand mx-0" href="#">Contact Info</a>
+                <li class="dropdown"><a class="navbar-brand mx-0 px-2" href="#">Contact Info</a>
                     <ul class="navbar-brand content">
-                        <li><a class="navbar-brand" href="email.html">Email Form</a></li>
-                        <li><a class="navbar-brand" href="socialmedia.html">Social Media</a></li>
+                        <li><a class="navbar-brand px-2" href="email.html">Email Form</a></li>
+                        <li><a class="navbar-brand px-2" href="socialmedia.html">Social Media</a></li>
                     </ul>
                 </li>
             </ul>
+        </div>
+        </div>
         </nav>
     </header>
 
