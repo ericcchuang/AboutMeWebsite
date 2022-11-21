@@ -13,13 +13,13 @@ main, footer{
 	display: none;
 	position:fixed;
 	z-index:2;
-	padding-top:30em;
+	padding-top:12em;
 }
 
 .mobile-nav li a {
-	min-width: 12em;
+	min-width: 10em;
 	min-height: 2em;
-	font-size:48px;
+	font-size:24px;
 }
 
 .mobile-nav nav li a:hover{
@@ -29,11 +29,11 @@ main, footer{
 .mobile-nav .content{
 	z-index:1;
 	float:none;
-	padding-left: 16em;
+	padding-left: 12em;
 }
 
 .mobile-nav .dropdown li a{
-	background-color: #6e6e6e;
+	background-color: #999999;
 }
 
 .mobile-nav .dropdown li a:hover{
@@ -41,7 +41,7 @@ main, footer{
 }
 
 .mobile-nav .dropdown:hover{
-	min-width: 36em;
+	min-width: 18em;
 }
 
 /* nav bar */
