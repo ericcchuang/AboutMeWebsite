@@ -32,10 +32,6 @@ main, footer{
 	padding-left: 12em;
 }
 
-.mobile-nav .dropdown li a{
-	background-color: #999999;
-}
-
 .mobile-nav .dropdown li a:hover{
     background-color: #ff8080;
 }
@@ -79,6 +75,10 @@ nav li a:hover{
     background-color: #ff8080;
 }
 
+.dropdown li a{
+	background-color: #999999;
+}
+
 .current{
 	background-color:#ff9595;
 }
@@ -107,4 +107,9 @@ body {
 #self{
 	float:left;
 	margin: 0 1% 1% 0;
+}
+
+/*pink*/
+.bg-pink{
+	background-color: #ff9595;
 }
