@@ -29,11 +29,19 @@ main, footer{
 .mobile-nav .content{
 	z-index:1;
 	float:none;
-	padding-left: 7.5em;
+	padding-left: 16em;
+}
+
+.mobile-nav .dropdown li a{
+	background-color: #6e6e6e;
+}
+
+.mobile-nav .dropdown li a:hover{
+    background-color: #ff8080;
 }
 
 .mobile-nav .dropdown:hover{
-	min-width: 12em;
+	min-width: 36em;
 }
 
 /* nav bar */
