@@ -43,6 +43,10 @@ main, footer{
 /* nav bar */
 header{
 	background-color: #aaaaaa;
+	position:fixed;
+	z-index: 1;
+	width: 100%;
+	top: 0;
 }
 nav {
 	position: relative;
@@ -102,6 +106,7 @@ nav li a:hover{
 
 body {
     background-color: #eeeeee;
+	margin-top:5%;
 }
 
 #self{
@@ -112,4 +117,14 @@ body {
 /*pink*/
 .bg-pink{
 	background-color: #ff9595;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+  	bottom: 0;
+	margin: 0;
+	padding: 1%;
+	background-color: #aaaaaa;
+	width: 100%
 }
