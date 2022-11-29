@@ -1,3 +1,5 @@
+// DEVELOPER: Eric Huang, IS117-001, Fall 2022 
+
 function deleteText(){
     document.getElementById('name').value='';
     document.getElementById('email').value='';
