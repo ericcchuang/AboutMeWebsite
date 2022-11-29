@@ -1,9 +1,17 @@
 /* DEVELOPER: Eric Huang, IS117-001, Fall 2022 */
 
-main, footer{
+main{
     margin: 1% 1.5%;
 }
 
+body {
+    background-color: #eeeeee;
+	margin-top:4%;
+}
+
+h1{
+	margin-bottom:1%;
+}
 
 /* responsive nav */
 #navButton{
@@ -103,12 +111,6 @@ nav li a:hover{
 	color:#ffffff;
 	font-weight:bold;
 	background-color: #a60000;
-}
-
-
-body {
-    background-color: #eeeeee;
-	margin-top:5%;
 }
 
 #self{
