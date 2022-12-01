@@ -1,0 +1,23 @@
+
+.carousel-indicators, .carousel-control-prev, .carousel-control-next{
+	z-index:0;
+}
+
+.carousel-inner{
+	z-index:-1;
+}
+
+@media screen and (min-width:992px){
+	.carousel{
+		max-width:50%
+	}
+	aside{
+		width: 45%;
+		float:inline-end;
+	}
+}
+
+aside{
+	margin-bottom:5em;
+
+}

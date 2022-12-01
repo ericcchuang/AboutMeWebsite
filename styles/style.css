@@ -139,10 +139,3 @@ footer{
 	width: 100%
 }
 
-.carousel-indicators, .carousel-control-prev, .carousel-control-next{
-	z-index:0;
-}
-
-.carousel-inner{
-	z-index:-1;
-}
