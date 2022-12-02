@@ -9,15 +9,14 @@
 
 @media screen and (min-width:992px){
 	.carousel{
-		max-width:50%
+		max-width:50%;
 	}
 	aside{
-		width: 45%;
+		width: 48%;
 		float:inline-end;
 	}
 }
 
 aside{
 	margin-bottom:5em;
-
 }
